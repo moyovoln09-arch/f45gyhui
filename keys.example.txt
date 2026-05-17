@@ -1,0 +1,4 @@
+# Put one key per line:
+vless://uuid@host:443?security=tls&sni=example.com&type=ws&path=%2Fws#VLESS_Example
+trojan://password@host:443?security=tls&sni=example.com#Trojan_Example
+hysteria2://password@host:443?sni=example.com#Hysteria2_Example

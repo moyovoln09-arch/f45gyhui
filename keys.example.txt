@@ -1,0 +1,10 @@
+# Example keys for proxy_tester.py
+# VLESS example
+vless://88888888-4444-4444-4444-121212121212@example.com:443?encryption=none&security=reality&sni=google.com&fp=chrome&pbk=xyz&sid=abc&type=grpc&serviceName=grpc-test#VLESS-Reality
+
+# Trojan example
+trojan://password@example.com:443?security=tls&sni=example.com&type=ws&path=%2Fws#Trojan-WS
+
+# Hysteria2 example
+hysteria2://password@example.com:443?up_mbps=200&down_mbps=200&obfs=password&obfs-password=123&sni=example.com#Hysteria2-Gaming
+hy2://password@example.com:443#Hysteria2-Short
